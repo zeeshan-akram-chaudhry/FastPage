@@ -342,6 +342,7 @@ body {
     padding-top: 32px;
     display: flex;
     align-items: flex-start;
+    align-items: center;
     gap: 22px;
     justify-content: center;
 }
