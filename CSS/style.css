@@ -835,3 +835,57 @@ body {
     font-weight: 400;
     color: #F3E8FF;
 }
+
+.login_container {
+    padding: 80px 24px;
+    max-width: 448px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.login_form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.login_text>h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.login_text>p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #4B5563;
+}
+
+.login_form_input {
+    width: 100%;
+}
+
+.login_form_item {
+    position: relative;
+}
+
+.password_toggle {
+    position: absolute;
+    right: 12px;
+    top: 60%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #6B7280;
+}
+
+.login_form_text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4B5563;
+    text-align: center;
+}
