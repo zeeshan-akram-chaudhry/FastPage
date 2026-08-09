@@ -889,3 +889,44 @@ body {
     color: #4B5563;
     text-align: center;
 }
+
+.signup_text {
+    max-width: 440px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.signup_icon {
+    width: 64px;
+    height: 64px;
+    ;
+}
+
+.signup_text>h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.signup_text>p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4B5563;
+    text-align: center;
+}
+
+.checkbox {
+    margin: 12px 0;
+}
+
+.checkbox_input {
+    width: 16px;
+    height: 16px;
+}
+
+.checkbox_label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4B5563;
+}
