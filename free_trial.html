@@ -11,35 +11,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Login</title>
+    <title>Free Trial</title>
     <script src="Java Script/script.js"></script>
 </head>
 
 <body>
-    <main class="login_container">
+    <main class="login_container freetrial_container">
         <div class="login_form form">
-            <div class="login_text">
-                <h1>Welcome Back</h1>
-                <p>Please sign in to your account</p>
+            <div class="freetrial_text signup_text">
+                <div class="freetrial_icon_container signup_icon_container">
+                    <img src="images/icon 17.png" alt="freetrial_icon">
+                </div>
+                <h1>Start your free 14-day trial</h1>
+                <p>Get started with all premium features</p>
             </div>
             <form action="#" class="form_menu login_form_menu">
                 <div class="form_item login_form_item">
-                    <label for="email" class="form_label">Email</label>
+                    <label for="name" class="form_label">Full Name</label>
+                    <input type="name" id="name" class="login_form_input form_input" placeholder="Enter your full name">
+                </div>
+                <div class="form_item login_form_item">
+                    <label for="email" class="form_label">Email Address</label>
                     <input type="email" id="email" class="login_form_input form_input" placeholder="Enter your email">
+                </div>
+                <div class="form_item login_form_item">
+                    <label for="company_name" class="form_label">Company name</label>
+                    <input type="text" id="company_name" class="login_form_input form_input"
+                        placeholder="Enter your company name">
                 </div>
                 <div class="form_item login_form_item">
                     <label for="password" class="form_label">Password</label>
                     <input type="password" id="password" class="login_form_input form_input"
-                        placeholder="Enter your password">
+                        placeholder="Create a password">
                     <button type="button" class="password_toggle" onclick="togglePassword()">
                         <i class="fa-solid fa-eye"></i>
                     </button>
                 </div>
-                <button type="submit" class="btn form_btn">Login </button>
+                <button type="submit" class="btn form_btn freetrial_btn">Sign Up </button>
             </form>
+            <div class="freetrial_creadit">
+                <img src="images/Frame (5).png" alt="creadit icon">
+                <p>No credit card required</p>
+            </div>
             <div>
                 <p class="login_form_text">
-                    Don't have an account? <a href="signup.html" class="pricing_contact">Sign Up</a>
+                    Already have an account? <a href="login.html" class="pricing_contact">Sign In</a>
                 </p>
             </div>
         </div>

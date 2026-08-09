@@ -736,6 +736,7 @@ body {
     border-radius: 12px;
     font-size: 16px;
     font-weight: 600;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
     border: none;
     cursor: pointer;
 }
@@ -929,4 +930,30 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: #4B5563;
+}
+
+.signup_btn {
+    background: linear-gradient(to bottom, #9333EA, #4F46E5);
+}
+
+.freetrial_btn {
+    background: linear-gradient(to bottom, #9333EA, #7E22CE);
+}
+
+.freetrial_creadit {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+}
+
+.freetrial_creadit>img {
+    width: 14px;
+    height: 14px;
+}
+
+.freetrial_creadit>p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6B7280;
 }
