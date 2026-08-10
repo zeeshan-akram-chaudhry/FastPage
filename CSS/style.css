@@ -644,6 +644,136 @@ body {
     cursor: pointer;
 }
 
+.hero_demo {
+    background: linear-gradient(to right, #2563EB, #1D4ED8, #6B21A8);
+}
+
+.hero_demo_container {
+    max-width: 736px;
+    margin: 0 auto;
+    padding: 180px 24px;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero_demo_container>h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.hero_demo_container>p {
+    max-width: 631px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #DBEAFE;
+    margin: 0 auto;
+}
+
+.demo_btn {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+}
+
+.watch_btn {
+    background-color: #FFFFFF;
+    color: #2563EB;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.learn_btn {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.action_demo_container {
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 80px 24px;
+    justify-content: center;
+    text-align: center;
+}
+
+.action_text {
+    max-width: 1088px;
+    margin: 0 auto;
+}
+
+.action_text>h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.action_text>p {
+    max-width: 630px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+video {
+    width: 100%;
+    max-width: 1088px;
+    height: auto;
+    border-radius: 16px;
+    margin-top: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.demo_feature_menu {
+    max-width: 1088px;
+    margin: 0 auto;
+}
+
+.cta_demo {
+    background: linear-gradient(to right, #2563EB, #7E22CE);
+}
+
+.cta_demo_container {
+    max-width: 896px;
+    margin: 0 auto;
+    padding: 80px 24px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cta_demo_container>h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.cta_demo_text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #DBEAFE;
+    max-width: 669px;
+    line-height: 28px;
+    margin: 0 auto 32px;
+}
+
+.cta_demo_btn {
+    background-color: #FFFFFF;
+    color: #2563EB;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cta_demo_credit {
+    font-size: 14px;
+    font-weight: 400;
+    color: #BFDBFE;
+}
+
 .hero_contact_container {
     max-width: 1280px;
     margin: 0 auto;
