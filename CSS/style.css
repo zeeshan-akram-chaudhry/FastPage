@@ -1678,6 +1678,14 @@ video {
         text-align: center;
     }
 
+    .btn_started {
+        padding: 14px 22px;
+    }
+
+    .btn_live {
+        padding: 14px 22px;
+    }
+
     .feature_menu {
         padding: 80px 24px;
         flex-wrap: wrap;
@@ -1702,20 +1710,33 @@ video {
         font-size: 16px;
     }
 
+    .cta_features_container>h2 {
+        font-size: 44px;
+        font-weight: 700;
+    }
+
     .cta_text {
         font-size: 18px;
+        font-weight: 400;
     }
 
     .cta_btn {
         font-weight: bold;
+        padding: 12px 16px;
     }
 
     .cta_credit_text {
         font-size: 12px;
+        font-weight: 300;
     }
 
     .card_menu {
         flex: 1 1 100%;
+    }
+
+    .pricing_btn {
+        padding: 15px 40px;
+        font-size: 18px;
     }
 
     .pricing_note_text {
@@ -1725,5 +1746,4 @@ video {
     .pricing_contact_text {
         font-size: 12px;
     }
-
 }
