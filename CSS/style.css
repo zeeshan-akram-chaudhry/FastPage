@@ -89,7 +89,7 @@ body {
 
 .footer {
     background-color: #E5E7EB;
-    margin: 0px
+    margin: 0px;
 }
 
 .footer-menu {
@@ -374,7 +374,6 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 362px;
-    min-height: 484px;
     padding: 33px;
     flex: 1 1 calc((100% - 44px) / 3);
     box-sizing: border-box;
@@ -1486,7 +1485,7 @@ video {
 
     .feature_menu {
         padding: 40px 22px;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         gap: 16px;
     }
 
@@ -1515,14 +1514,50 @@ video {
     .cta_home_btn {
         padding: 20px 36px;
     }
+
+    .pricing_card {
+        gap: 16px;
+    }
+
+    .card_menu {
+        padding: 22px;
+        flex: 1 1 calc((100% - 32px) / 3);
+    }
+
+    .card_item>h3 {
+        font-size: 22px;
+    }
+
+    .card_item>h2 {
+        font-size: 32px;
+    }
+
+    .duration {
+        font-size: 14px;
+    }
+
+    .item_list {
+        margin-bottom: 28px;
+        font-size: 14px;
+    }
+
+    .tick {
+        padding-right: 8px;
+    }
+
+    .recommend_card {
+        min-height: 420px;
+    }
+
+    .pricing_btn {
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
-    @media (max-width: 768px) {
-        .container {
-            padding-left: 8px;
-            padding-right: 8px;
-        }
+    .container {
+        padding-left: 8px;
+        padding-right: 8px;
     }
 
     .navbar {
@@ -1556,11 +1591,50 @@ video {
     }
 
     .feature_menu {
-        flex-wrap: wrap
+        flex-wrap: wrap;
     }
 
     .feature_item {
         flex: 1 1 calc((100% - 32px) / 2);
+    }
+
+    .pricing_card {
+        gap: 22px;
+        flex-wrap: wrap;
+    }
+
+    .card_menu {
+        padding: 33px;
+        flex: 1 1 calc((100% - 44px) / 2);
+    }
+
+    .card_item>h3 {
+        font-size: 24px;
+    }
+
+    .card_item>h2 {
+        font-size: 36px;
+    }
+
+    .duration {
+        font-size: 16px;
+    }
+
+    .item_list {
+        margin-bottom: 32px;
+        font-size: 16px;
+    }
+
+    .tick {
+        padding-right: 12px;
+    }
+
+    .recommend_card {
+        min-height: 420px;
+    }
+
+    .pricing_btn {
+        padding: 15px 100px;
     }
 
     .footer-menu {
@@ -1627,4 +1701,29 @@ video {
     .feature_item>p {
         font-size: 16px;
     }
+
+    .cta_text {
+        font-size: 18px;
+    }
+
+    .cta_btn {
+        font-weight: bold;
+    }
+
+    .cta_credit_text {
+        font-size: 12px;
+    }
+
+    .card_menu {
+        flex: 1 1 100%;
+    }
+
+    .pricing_note_text {
+        font-size: 14px;
+    }
+
+    .pricing_contact_text {
+        font-size: 12px;
+    }
+
 }
