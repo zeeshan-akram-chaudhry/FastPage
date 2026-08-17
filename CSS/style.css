@@ -1189,6 +1189,7 @@ video {
 .contact_form>h2 {
     font-size: 24px;
     font-weight: 700;
+    margin-top: 0;
 }
 
 .form_menu {
@@ -1250,6 +1251,7 @@ video {
 .info_container>h2 {
     font-size: 24px;
     font-weight: 700;
+    margin-top: 0;
 }
 
 .info_item {
@@ -1277,6 +1279,7 @@ video {
 .location>h2 {
     font-size: 20px;
     font-weight: 700;
+    margin-top: 0;
 }
 
 .location_map {
@@ -1620,6 +1623,38 @@ video {
         width: 18px;
         height: 18px;
     }
+
+    .contact_container {
+        gap: 32px;
+    }
+
+    .form_input {
+        height: 40px;
+    }
+
+    .form_textarea {
+        height: 100px;
+    }
+
+    .contact_info {
+        gap: 16px;
+    }
+
+    .info_text>h3 {
+        margin: 10px auto 4px;
+    }
+
+    .location_map iframe {
+        height: 200px;
+    }
+
+    .office_hours_menu {
+        gap: 22px;
+    }
+
+    .office_hours_item {
+        padding: 18px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1764,8 +1799,8 @@ video {
     }
 
     .team_item {
-        padding: 32px;
         flex: 1 1 calc((100% - 32px) / 2);
+        padding: 32px;
     }
 
     .team_item>img {
@@ -1785,6 +1820,42 @@ video {
     .social_logo img {
         width: 18px;
         height: 18px;
+    }
+
+    .hero_contact_container>p {
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
+    .contact_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form_input {
+        height: 50px;
+    }
+
+    .form_textarea {
+        height: 146px;
+    }
+
+    .contact_info {
+        gap: 32px;
+    }
+
+    .location_map iframe {
+        height: 256px;
+    }
+
+    .office_hours_menu {
+        gap: 22px;
+        flex-wrap: wrap;
+    }
+
+    .office_hours_item {
+        flex: 1 1 calc((100% - 22px) / 2);
+        padding: 12px;
     }
 
     .footer-menu {
@@ -1902,6 +1973,19 @@ video {
     }
 
     .team_item {
+        flex: 1 1 100%;
+    }
+
+    .info_text>p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .office_hours_menu {
+        gap: 32px;
+    }
+
+    .office_hours_item {
         flex: 1 1 100%;
     }
 }
