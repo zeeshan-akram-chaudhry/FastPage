@@ -1347,6 +1347,7 @@ video {
     width: 100%;
     max-width: 448px;
     margin: 0 auto;
+    display: flex;
     justify-content: center;
 }
 
@@ -1655,6 +1656,12 @@ video {
     .office_hours_item {
         padding: 18px;
     }
+
+    .form_btn {
+        padding: 10px 55px;
+        font-weight: 600;
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1858,6 +1865,12 @@ video {
         padding: 12px;
     }
 
+    .form_btn {
+        padding: 10px 55px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
     .footer-menu {
         flex-wrap: wrap;
     }
@@ -1987,5 +2000,11 @@ video {
 
     .office_hours_item {
         flex: 1 1 100%;
+    }
+
+    .form_btn {
+        padding: 10px 55px;
+        font-weight: 600;
+        font-size: 16px;
     }
 }
