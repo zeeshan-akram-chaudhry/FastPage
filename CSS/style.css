@@ -1829,6 +1829,11 @@ video {
         height: 18px;
     }
 
+    .hero_demo_container>p {
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
     .hero_contact_container>p {
         margin: 0 auto;
         font-size: 18px;
@@ -1989,6 +1994,30 @@ video {
         flex: 1 1 100%;
     }
 
+    .hero_demo_container {
+        padding: 80px 24px;
+    }
+
+    .hero_demo_container>h1 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+
+    .watch_btn {
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+
+    .learn_btn {
+        padding: 10px 20px;
+    }
+
+    .cta_demo_btn {
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+
     .info_text>p {
         font-size: 14px;
         font-weight: 400;
@@ -2007,4 +2036,5 @@ video {
         font-weight: 600;
         font-size: 16px;
     }
+
 }
