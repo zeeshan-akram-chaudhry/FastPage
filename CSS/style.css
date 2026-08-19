@@ -876,6 +876,12 @@ video {
     border: 2px solid #374151;
 }
 
+.learn_img {
+    width: 100%;
+    max-width: 616px;
+    height: auto;
+}
+
 .workflow_container {
     width: 100%;
     max-width: 1280px;
@@ -1625,6 +1631,71 @@ video {
         height: 18px;
     }
 
+    .hero_learn_container {
+        padding: 80px 22px;
+        gap: 24px;
+    }
+
+    .hero_heading {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .learn_hero_text>p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .learn_hero_img {
+        align-self: center;
+    }
+
+    .workflow_menu {
+        gap: 24px;
+    }
+
+    .workflow_item {
+        gap: 16px;
+        margin-top: 18px;
+    }
+
+    .workflow_icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .workflow_item_text>h3 {
+        font-size: 18px;
+    }
+
+    .workflow_item_text>p {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 10px auto;
+    }
+
+    .proflow_menu {
+        gap: 32px;
+        flex-wrap: wrap;
+    }
+
+    .proflow_item {
+        flex: 1 1 calc((100% - 64px) / 3);
+    }
+
+    .feedback_user_menu {
+        gap: 28px;
+    }
+
+    .feedback_user {
+        padding: 26px;
+    }
+
+    .feedback_description {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
     .contact_container {
         gap: 32px;
     }
@@ -1834,6 +1905,80 @@ video {
         font-size: 16px;
     }
 
+    .hero_learn_container {
+        padding: 80px 24px;
+        gap: 48px;
+    }
+
+    .hero_heading {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    .learn_hero_text>p {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .learn_hero_img {
+        display: none;
+    }
+
+    .workflow_menu {
+        gap: 32px;
+        flex-direction: column;
+    }
+
+    .workflow_item {
+        margin-top: 26px;
+    }
+
+    .workflow_icon {
+        width: 49px;
+        height: 52px;
+    }
+
+    .workflow_item_text>h3 {
+        font-size: 20px;
+    }
+
+    .workflow_item_text>p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .proflow_container {
+        padding: 80px 20px;
+    }
+
+    .proflow_menu {
+        gap: 16px;
+    }
+
+    .proflow_icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    .proflow_item>p {
+        font-size: 14px;
+    }
+
+    .feedback_user_menu {
+        gap: 32px;
+        flex-wrap: wrap;
+    }
+
+    .feedback_user {
+        padding: 32px;
+        flex: 1 1 100%;
+    }
+
+    .feedback_description {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
     .hero_contact_container>p {
         margin: 0 auto;
         font-size: 18px;
@@ -2014,6 +2159,42 @@ video {
     }
 
     .cta_demo_btn {
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+
+    .learn_freetrial_btn {
+        padding: 10px 20px;
+    }
+
+    .learn_demo_btn {
+        padding: 10px 20px;
+    }
+
+    .proflow_container {
+        padding: 80px 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .proflow_text>h2 {
+        font-size: 32px;
+    }
+
+    .proflow_text>p {
+        font-size: 18px;
+    }
+
+    .proflow_menu {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .feedback_container {
+        padding: 80px 20px;
+    }
+
+    .cta_learn_btn {
         font-weight: 600;
         padding: 10px 20px;
     }
